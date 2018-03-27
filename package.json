@@ -1,0 +1,28 @@
+{
+  "name": "zadanie15.7",
+  "version": "1.0.0",
+  "description": "15 - ES6 - nowe standardy JavaScript<br>\r 15.7 - ES6 a React<br>\r Zadanie: Przekształcenie stopera na składnię ES6",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js",
+    "sync": "node_modules/.bin/browser-sync start --server --files \"css/*.css\" \"*.html\" \"*.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/zadanie15.7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/zadanie15.7/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/zadanie15.7#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "browser-sync": "^2.23.6",
+    "onchange": "^3.3.0"
+  }
+}

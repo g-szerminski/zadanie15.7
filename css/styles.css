@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Electrolize', sans-serif;
+}
+
+img {
+	width: 100vw;
+	height: 100vh;
+	filter: blur(5px);
+	position: absolute;
+}
+
+nav {
+	padding-top: 2%;
+}
+
+.controls {
+	color: yellow;
+	position: relative;
+	text-align: center;
+}
+
+.controls a {
+	color: yellow;
+	font-size: 300%;
+	text-decoration: none;
+	margin-right: 2%;
+	text-transform: uppercase;
+}
+
+ul {
+	color: yellow;
+	position: relative;
+	text-align: center;
+	font-size: 150%;
+}
+
+.stopwatch {
+	font-size: 500%;
+	margin-top: 1%;
+	color: yellow;
+	position: relative;
+	text-align: center;
+}
